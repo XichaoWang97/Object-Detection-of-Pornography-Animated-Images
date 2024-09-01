@@ -1,0 +1,19 @@
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+#path:
+train: E:/Yolo/yolov5-7.0/datasets/ACGDatasets/images/train  # train images (relative to 'path') 128 images
+val: E:/Yolo/yolov5-7.0/datasets/ACGDatasets/images/val  # val images (relative to 'path') 128 images
+test:  # test images (optional)
+
+# Classes
+names:
+  0: ACG_Character
+  1: ACG_face
+  2: ACG_Eye
+  3: ACG_Hand
+  4: ACG_Breast
+  5: ACG_Hip
+  6: ACG_PrivatePartF
+  7: ACG_PrivatePartM
+
+
+
